@@ -36,7 +36,21 @@ public class StpDef {
 		LoginPage.password.sendKeys("Password456");
 	    LoginPage.LoginButton.click();
 	    LoginPage.addproduct.click();
-	    LoginPage.
+	    LoginPage.categorydropid.click();
+	    LoginPage.elecronics.click();
+	    LoginPage.subcategory.click();
+	    LoginPage.HeadPhone.click();
+	    LoginPage.productname.sendKeys("jkl");
+	    LoginPage.price.sendKeys("700");
+	    LoginPage.quantity.sendKeys("2");
+	    LoginPage.Brand.sendKeys("hjk");
+        LoginPage.Description.sendKeys("jkl head phone");
+        LoginPage.AddProduct.click();
+        
+        
+        
+
+	   
 	}
 
 	@Then("user is Login successfully")

@@ -19,5 +19,7 @@ public class RegisterPage {
 	public static WebElement confirmpassword;
 	@FindBy(how=How.CSS,using="input[value='Register']")
 	public static WebElement registerbutton;
+	
+	
 
 }
