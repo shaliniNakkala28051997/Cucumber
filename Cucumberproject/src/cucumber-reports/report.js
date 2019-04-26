@@ -1,11 +1,11 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/skelton/shout.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/skelton/CaseStudy.feature");
 formatter.feature({
-  "name": "shout Feature",
+  "name": "TestMeApp Feature",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Sean shouts",
+  "name": "LoginScenario",
   "description": "",
   "keyword": "Scenario"
 });
@@ -22,81 +22,31 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "Sean is 10 meters away from Lucia",
+  "name": "url of the TestMeApp",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "ClassDefinitions.sean_is_meters_away_from_Lucia(Integer)"
+  "location": "StpDef.url_of_the_TestMeApp()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Sean shouts \"Free Coffee\"",
+  "name": "user enters the data for LoginPage",
   "keyword": "When "
 });
 formatter.match({
-  "location": "ClassDefinitions.sean_shouts(String)"
+  "location": "StpDef.user_enters_the_data_for_LoginPage()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Lucia \"listens\" to the message",
+  "name": "user is Login successfully",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "ClassDefinitions.lucia_listens_to_the_message(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "shout Feature",
-  "description": "",
-  "keyword": "Scenario"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Sean is 200 meters away from Lucia",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "ClassDefinitions.sean_is_meters_away_from_Lucia(Integer)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Sean shouts \"Free Coffee\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "ClassDefinitions.sean_shouts(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Lucia \"cannot listens\" to the message",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "ClassDefinitions.lucia_listens_to_the_message(String)"
+  "location": "StpDef.user_is_Login_successfully()"
 });
 formatter.result({
   "status": "passed"

@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-04-26T09:43:22.771Z",
+        "start_timestamp": "2019-04-26T10:19:12.294Z",
         "before": [
           {
             "result": {
-              "duration": 5844601100,
+              "duration": 5196279200,
               "status": "passed"
             },
             "match": {
@@ -16,7 +16,7 @@
           },
           {
             "result": {
-              "duration": 7813452200,
+              "duration": 3946009600,
               "status": "passed"
             },
             "match": {
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 11643438200,
+              "duration": 3842766400,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
           },
           {
             "result": {
-              "duration": 4731120400,
+              "duration": 4073296700,
               "status": "passed"
             },
             "match": {
@@ -43,13 +43,13 @@
           }
         ],
         "line": 2,
-        "name": "Sean shouts",
+        "name": "LoginScenario",
         "description": "",
-        "id": "shout-feature;sean-shouts",
+        "id": "testmeapp-feature;loginscenario",
         "after": [
           {
             "result": {
-              "duration": 281485600,
+              "duration": 209182600,
               "status": "passed"
             },
             "match": {
@@ -62,180 +62,48 @@
         "steps": [
           {
             "result": {
-              "duration": 522000,
+              "duration": 1199878200,
               "status": "passed"
             },
             "line": 3,
-            "name": "Sean is 10 meters away from Lucia",
+            "name": "url of the TestMeApp",
             "match": {
-              "arguments": [
-                {
-                  "val": "10",
-                  "offset": 8
-                }
-              ],
-              "location": "ClassDefinitions.sean_is_meters_away_from_Lucia(Integer)"
+              "location": "StpDef.url_of_the_TestMeApp()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 142400,
+              "duration": 2263046500,
               "status": "passed"
             },
             "line": 4,
-            "name": "Sean shouts \"Free Coffee\"",
+            "name": "user enters the data for LoginPage",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Free Coffee\"",
-                  "offset": 12
-                }
-              ],
-              "location": "ClassDefinitions.sean_shouts(String)"
+              "location": "StpDef.user_enters_the_data_for_LoginPage()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 37228400,
+              "duration": 32400,
               "status": "passed"
             },
             "line": 5,
-            "name": "Lucia \"listens\" to the message",
+            "name": "user is Login successfully",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"listens\"",
-                  "offset": 6
-                }
-              ],
-              "location": "ClassDefinitions.lucia_listens_to_the_message(String)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2019-04-26T09:43:53.131Z",
-        "before": [
-          {
-            "result": {
-              "duration": 5645038400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "StpDef.before()"
-            }
-          },
-          {
-            "result": {
-              "duration": 3937457200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "RegStepDefs.init()"
-            }
-          },
-          {
-            "result": {
-              "duration": 5084055800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "StepDefs.before()"
-            }
-          },
-          {
-            "result": {
-              "duration": 4248041000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Stp2StepDef.before()"
-            }
-          }
-        ],
-        "line": 6,
-        "name": "shout Feature",
-        "description": "",
-        "id": "shout-feature;shout-feature",
-        "after": [
-          {
-            "result": {
-              "duration": 131684100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "StepDefs.after()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 66600,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Sean is 200 meters away from Lucia",
-            "match": {
-              "arguments": [
-                {
-                  "val": "200",
-                  "offset": 8
-                }
-              ],
-              "location": "ClassDefinitions.sean_is_meters_away_from_Lucia(Integer)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 85700,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Sean shouts \"Free Coffee\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Free Coffee\"",
-                  "offset": 12
-                }
-              ],
-              "location": "ClassDefinitions.sean_shouts(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 44900,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Lucia \"cannot listens\" to the message",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"cannot listens\"",
-                  "offset": 6
-                }
-              ],
-              "location": "ClassDefinitions.lucia_listens_to_the_message(String)"
+              "location": "StpDef.user_is_Login_successfully()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "shout Feature",
+    "name": "TestMeApp Feature",
     "description": "",
-    "id": "shout-feature",
+    "id": "testmeapp-feature",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/skelton/shout.feature",
+    "uri": "file:src/test/resources/skelton/CaseStudy.feature",
     "tags": []
   }
 ]
